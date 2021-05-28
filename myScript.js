@@ -1,5 +1,8 @@
-var newText = 'new Text'
-var myName = 'Woratat'
-document.getElementById('ok').innerHTML=newText
-document.getElementById('no').innerHTML=myName
-alert("Hello world")
+document.getElementById('ok').addEventListener('click',function(e){
+    alert('ok is clicked')
+    console.log(e)
+}
+)
+document.getElementById('cancel').addEventListener('mousemove',function (){
+    alert('Hello')
+})
