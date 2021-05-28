@@ -1,0 +1,35 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: grey;
+}
+
+.flex-item {
+  -ms-flex-preferred-size: 200px;
+      flex-basis: 200px;
+  padding: 20px;
+  margin: 20px;
+  background-color: darkgray;
+  font-size: 2rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#ok {
+  color: red;
+  border: 2px solid red;
+}
+
+#cancel {
+  color: white;
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */
