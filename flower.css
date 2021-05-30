@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+span {
+  color: #b6174b;
+}
+
+.navbar {
+  background-color: #1c5253;
+  padding: 16px 128px;
+}
+
+.navbar .navbar-brand {
+  font-size: 22.4px;
+  font-weight: 700;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a {
+  color: #fff;
+  font-size: 18px;
+  padding: 0 13px;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover {
+  color: #f3ffc6;
+}
+
+#navbarSupportedContent > button {
+  background-color: #f3ffc6;
+  font-weight: 600;
+  padding: 7px 23px;
+  border-radius: 30px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 16px;
+}
+
+.main img {
+  height: 400px;
+  width: 500px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+/*# sourceMappingURL=flower.css.map */
