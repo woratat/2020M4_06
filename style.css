@@ -33,3 +33,10 @@
   background-color: black;
 }
 /*# sourceMappingURL=style.css.map */
+
+.toggleOn{
+  background-color: #fff;
+}
+.toggleOff{
+  background-color: darkgray;
+}
